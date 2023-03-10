@@ -1,32 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <style>
-        div{
-            font-size: 20px;
-            color: mediumseagreen;
-        }
-        p{
-            font-size: 20px;
-        }
-    </style>
+    
+    <link rel="stylesheet" href="css/样式.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>嘻嘻，随便做的网页</title>
 </head>
-<body background="images/伊雷娜2.png" style="background-size:100%;
-
-"
->
-    <p style="color: aqua; font-size: 40px;" align="center" >普通注册界面</p> <br />
+<body background="images/伊雷娜2.png" style="background-size:100%;">
+    <p >
+        <span id="toubu" >普通注册界面</span> <br />
+    </p>
     
     <div align="center">
-        <form action="https://www.bilibili.com/video/BV1hq4y1s7VH/?spm_id_from=333.337.search-card.all.click&vd_source=b251205378ae95940dc613e1f2277d7d" method="get">
+        <form action="菜单网址.html" method="get">
 
-            用户名:<br /><input type="text" name="username" style="font-size: 20px;" value="请输入用户名"> <br />
+            用户名:<br /><input type="text" name="username" style="font-size: 20px;" placeholder="请输入用户名" required> <br />
 
-            密码:<br><input type="password" style="font-size: 20px;" name="pwd"><br />
+            密码:<br><input type="password" style="font-size: 20px;" name="pwd" required><br />
 
             性别: &nbsp;&nbsp;&nbsp; 男 <input type="radio" style="font-size: 20px;" name="xb"> 女<input type="radio" style="font-size: 20px;" name="xb"> <br />
 
@@ -34,7 +26,7 @@
 
             手机绑定 <input type="text" style="font-size: 20px;"> <br />
 
-            <p> 绑定邮箱
+            <p id="links"> 绑定邮箱
                 <input type="email" name="email" style="font-size: 20px;">
             </p>
 
@@ -72,7 +64,9 @@
         </div>
         
     </div>
-    
+    <video width="2000" height="1000" controls="controls">
+        <source src="images/ELDEN RING™ 2023-01-14 18-46-08.mp4">
+    </video>
     
 </body>
 </html>
