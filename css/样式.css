@@ -1,0 +1,19 @@
+div{
+    font-size: 50px;
+    color: mediumseagreen;
+    background-color: aliceblue;
+    background-position: center;
+    opacity: 0.9;
+}
+p{
+    font-size: 20px;
+    text-align: center;
+}
+p[id=links]{
+    font-size: 50px;
+}
+#toubu{
+    color: aqua; 
+    font-size: 40px;
+    
+}
